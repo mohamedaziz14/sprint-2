@@ -31,3 +31,52 @@
 // Write a function called hasUniqueCharacters that takes a string as input and returns true if all the characters in the string are unique (i.e., none of the characters repeat), and false otherwise.
 
 // Write a function called isPrimeProduct that takes two positive integers as input and returns true if their product is a prime number, and false otherwise.
+
+
+
+///////////////////////exercice1
+function calculator(a,o,b) {
+    if (o === '+') {
+        return a + b
+  }else    if (o === '-') {
+        return a - b
+}else    if (o === '') {
+        return a * b
+    }
+}
+/////////////exercice2
+function isLeapYear(year){
+    return (year%4===0&&year%100!==0)||(year%400===0)
+        
+    }
+    //////////exercice3
+    function isValidPassword(string){
+        if (string.lengt>=8){
+            return true
+        }
+        return false
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////exercice2
